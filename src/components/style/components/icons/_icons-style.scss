@@ -1,0 +1,15 @@
+.vf-icon-text {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	&__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	&__logo::before {
+		font-size: 3.75rem !important;
+	}
+}

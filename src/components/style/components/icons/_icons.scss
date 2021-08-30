@@ -1,8 +1,9 @@
+@use './icons-style';
+
 [class^='vf-icon-']:before,
 [class*=' vf-icon-']:before {
 	font-family: 'vf-icons' !important;
 	font-size: 1.5rem;
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;

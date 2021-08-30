@@ -1,0 +1,113 @@
+@use '../../../../style/variables' as *;
+
+.vf-table {
+	width: 100%;
+	margin-bottom: 2rem;
+	color: #222;
+	background-color: $primary__aura-white;
+
+	th,
+	td {
+		padding: 0.75rem;
+		vertical-align: top;
+		border-top: 1px solid #dee2e6;
+	}
+
+	thead th {
+		vertical-align: bottom;
+		border-bottom: (2 * 1px) solid #dee2e6;
+	}
+
+	tbody + tbody {
+		border-top: (2 * 1px) solid #dee2e6;
+	}
+}
+
+//
+// Condensed table w/ half padding
+//
+
+.vf-table-sm {
+	th,
+	td {
+		padding: 0.3rem;
+	}
+}
+
+// Border versions
+//
+// Add or remove borders all around the table and between all the columns.
+
+.vf-table-bordered {
+	border: 1px solid #dee2e6;
+
+	th,
+	td {
+		border: 1px solid #dee2e6;
+	}
+
+	thead {
+		th,
+		td {
+			border-bottom-width: 2 * 1px;
+		}
+	}
+}
+
+.vf-table-borderless {
+	th,
+	td,
+	thead th,
+	tbody + tbody {
+		border: 0;
+	}
+}
+
+// Zebra-striping
+//
+// Default zebra-stripe styles (alternating gray and transparent backgrounds)
+
+.vf-table-striped {
+	tbody tr:nth-of-type(#{odd}) {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+
+// Hover effect
+//
+// Placed here since it has to come after the potential zebra striping
+
+.vf-table-hover {
+	tbody tr {
+		&:hover {
+			color: $text__dark-color;
+			background-color: rgba(0, 0, 0, 0.75);
+		}
+	}
+}
+
+.vf-simple-table {
+	width: 100%;
+	margin-bottom: 2rem;
+	color: black;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: -0.05px;
+
+	td {
+		text-align: right;
+	}
+
+	th {
+		text-align: left;
+		font-weight: 600;
+	}
+
+	th,
+	td {
+		width: 55%;
+		padding: 15px 0;
+		vertical-align: top;
+		border-bottom: 1px solid #d8d8d8;
+	}
+}

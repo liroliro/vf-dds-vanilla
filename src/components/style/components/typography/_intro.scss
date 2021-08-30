@@ -1,0 +1,12 @@
+.vf-preamble {
+	font-family: 'Vattenfall Hall NORDx';
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;
+	margin: 0;
+
+	@media screen and (min-width: 768px) {
+		font-size: 24px;
+		line-height: 36px;
+	}
+}

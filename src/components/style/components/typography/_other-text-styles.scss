@@ -1,0 +1,17 @@
+@use '../../../../style/variables' as *;
+
+.vf-utility__link {
+	color: $primary__ocean-blue;
+}
+
+.vf-utility__metadata {
+	color: #888888;
+}
+
+.vf-utility__success {
+	color: $secondary__green;
+}
+
+.vf-utility__warning {
+	color: #f5a623;
+}

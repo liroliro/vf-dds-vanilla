@@ -1,0 +1,23 @@
+.vf__utility--sm-hidden {
+	@media screen and (max-width: 767px) {
+		display: none;
+	}
+}
+
+.vf__utility--md-hidden {
+	@media screen and (max-width: 991px) {
+		display: none;
+	}
+}
+
+.vf__utility--lg-hidden {
+	@media screen and (max-width: 1199px) {
+		display: none;
+	}
+}
+
+.vf__utility--xl-hidden {
+	@media screen and (max-width: 1919px) {
+		display: none;
+	}
+}

@@ -1,0 +1,81 @@
+.vf-image-block {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1680px;
+}
+
+.vf-image-block__body {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 90px;
+	padding-right: 16px;
+	padding-left: 16px;
+	width: 100%;
+
+	@media screen and (min-width: 768px) {
+		margin-top: 0;
+	}
+}
+
+.vf-image-block__media {
+	position: relative;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+
+	img {
+		width: 100%;
+		@media screen and (min-width: 576px) {
+			width: 50%;
+		}
+		display: block;
+		margin: 0 auto;
+	}
+
+	@media screen and (min-width: 992px) {
+		flex: 0 0 33%;
+		max-width: 33%;
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.vf-image-block__content {
+	position: relative;
+	width: 100%;
+	padding: 35px 12px 35px 0;
+
+	@media screen and (min-width: 992px) {
+		flex: 0 0 66.666667%;
+		max-width: 66.666667%;
+		order: -1;
+		padding-right: 44px;
+	}
+}
+
+.vf-image-block__title {
+	font-weight: 600;
+	letter-spacing: 0;
+	font-size: 36px;
+	line-height: 42px;
+}
+.vf-image-block__text,
+.vf-image-block__text p {
+	margin-bottom: 1rem;
+}
+
+// Styles for reversed mode (image on the left on desktop)
+.vf-image-block--reversed {
+	.vf-image-block__content {
+		order: 1 !important;
+
+		@media screen and (min-width: 992px) {
+			padding-left: 44px;
+			padding-right: 0;
+		}
+	}
+}

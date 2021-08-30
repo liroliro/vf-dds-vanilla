@@ -1,0 +1,239 @@
+@use '../../../style/variables' as *;
+
+.vf-text--body {
+	color: #222222;
+}
+
+.vf-text__coal-black {
+	color: $primary__coal-black;
+}
+
+.vf-text--muted {
+	color: #6c757d;
+}
+
+.vf-text--primary {
+	color: $primary__solar-yellow;
+}
+
+.vf-text--secondary {
+	color: $primary__ocean-blue;
+}
+
+a.vf-text--secondary:hover,
+a.vf-text--secondary:focus {
+	color: #18568a;
+}
+
+.vf-text--success {
+	color: #28a745;
+}
+
+a.vf-text--success:hover,
+a.vf-text--success:focus {
+	color: #1e7e34;
+}
+
+a.vf-text--primary:hover,
+a.vf-text--primary:focus {
+	color: #ccae00;
+}
+
+.vf-text--warning {
+	color: #ffc107;
+}
+
+a.vf-text--warning:hover,
+a.vf-text--warning:focus {
+	color: #d39e00;
+}
+
+.vf-text--danger {
+	color: $secondary__red;
+}
+
+a.vf-text--danger:hover,
+a.vf-text--danger:focus {
+	color: #d82606;
+}
+
+.vf-text--light {
+	color: #f8f9fa;
+}
+
+a.vf-text--light:hover,
+a.vf-text--light:focus {
+	color: #dae0e5;
+}
+
+.vf-text--dark {
+	color: #222222;
+}
+
+a.vf-text--dark:hover,
+a.vf-text--dark:focus {
+	color: #090909;
+}
+
+.vf-text--blue-grey {
+	color: $tertiary__dark-ash-blue;
+}
+
+a.vf-text--blue-grey:hover,
+a.vf-text--blue-grey:focus {
+	color: #535f6f;
+}
+
+.vf-text--dark-moss {
+	color: $secondary__dark-green;
+}
+
+a.vf-text--dark-moss:hover,
+a.vf-text--dark-moss:focus {
+	color: #002d30;
+}
+
+.vf-text--dark-blue {
+	color: $secondary__dark-blue;
+}
+
+a.vf-text--dark-blue:hover,
+a.vf-text--dark-blue:focus {
+	color: #101b2a;
+}
+
+.vf-text--dark-pink {
+	color: $secondary__pink;
+}
+
+a.vf-text--dark-pink:hover,
+a.vf-text--dark-pink:focus {
+	color: #a61e55;
+}
+
+.vf-text--dark-green {
+	color: $secondary__green;
+}
+
+a.vf-text--dark-green:hover,
+a.vf-text--dark-green:focus {
+	color: #319963;
+}
+
+.vf-text--dark-red {
+	color: $secondary__red;
+}
+
+a.vf-text--dark-red:hover,
+a.vf-text--dark-red:focus {
+	color: #d82606;
+}
+
+.vf-text--dark-purple {
+	color: $secondary__purple;
+}
+
+a.vf-text--dark-purple:hover,
+a.vf-text--dark-purple:focus {
+	color: #8243af;
+}
+
+.vf-text--light-yellow {
+	color: $bg__light-yellow;
+}
+
+a.vf-text--light-yellow:hover,
+a.vf-text--light-yellow:focus {
+	color: #fffcb2;
+}
+
+.vf-text--light-green {
+	color: $bg__light-green;
+}
+
+a.vf-text--light-green:hover,
+a.vf-text--light-green:focus {
+	color: #c7ecda;
+}
+
+.vf-text--light-turquoise {
+	color: $bg__light-blue--alt;
+}
+
+a.vf-text--light-turquoise:hover,
+a.vf-text--light-turquoise:focus {
+	color: #cbdde0;
+}
+
+.vf-text--light-blue {
+	color: $bg__light-blue;
+}
+
+a.vf-text--light-blue:hover,
+a.vf-text--light-blue:focus {
+	color: #cbd7e5;
+}
+
+.vf-text--light-red {
+	color: $bg__light-red;
+}
+
+a.vf-text--light-red:hover,
+a.vf-text--light-red:focus {
+	color: #fccdb9;
+}
+
+.vf-text--light-grey {
+	color: $bg__light-grey;
+}
+
+a.vf-text--light-grey:hover,
+a.vf-text--light-grey:focus {
+	color: #d9d9d9;
+}
+
+.vf-text--white {
+	color: $primary__aura-white;
+}
+
+.vf-text--black-50 {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.vf-text--white-50 {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+// Incharge colours
+
+.vf-text--incharge-nordic-green {
+	color: #46ee76;
+}
+
+.vf-text--incharge-nordic-blue {
+	color: $primary__ocean-blue;
+}
+
+.vf-text--incharge-nordic-grey {
+	color: $primary__magnetic-grey;
+}
+
+.vf-text--incharge-vattenfall-green {
+	color: #46ee76;
+}
+
+.vf-text--incharge-map-app-yellow {
+	color: $primary__solar-yellow;
+}
+
+.vf-text--incharge-map-app-white {
+	color: $primary__aura-white;
+}
+
+.vf-text--incharge-map-app-solar {
+	color: $energy__solar;
+}
+
+.vf-text--incharge-map-app-blue {
+	color: $primary__ocean-blue;
+}

@@ -1,0 +1,123 @@
+@use '../../../../style/variables' as *;
+
+.vf-notification-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	position: relative;
+	width: 333px;
+
+	.vf-notification-icon {
+		display: inline-flex;
+		margin: 16px 10px 16px auto;
+		padding: 10px;
+		border-radius: 100%;
+		color: $primary__aura-white;
+		background-color: $link__color;
+		cursor: pointer;
+	}
+
+	.vf-notification {
+		position: absolute;
+		top: 76px;
+		background: $primary__aura-white;
+		border-radius: 4px;
+		border: 1px solid #bcbcbc;
+		transform: scaleY(0);
+		opacity: 0;
+		transition: opacity 0.2s ease-in-out;
+
+		&.vf-notification--show {
+			transform: scaleY(1);
+			opacity: 1;
+		}
+
+		.vf-notification-header {
+			position: relative;
+			color: $primary__aura-white;
+			background-color: $link__color;
+			font-size: 1.125rem;
+			letter-spacing: 0px;
+			line-height: 24px;
+			padding: 18px 20px;
+			border-radius: 4px 4px 0 0;
+			font-weight: 800;
+
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				top: -4px;
+				right: 24px;
+				width: 16px;
+				height: 16px;
+				border-top: 10px solid $link__color;
+				border-right: 10px solid $link__color;
+				transform: rotate(-45deg);
+			}
+
+			.vf-notification-header-settings {
+				position: absolute;
+				top: 16px;
+				right: 20px;
+				color: $primary__aura-white;
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+
+		.vf-notification-body {
+			margin: 0 20px;
+
+			.vf-notification-body-item {
+				display: flex;
+				padding: 20px 0;
+				border-bottom: 1px solid $border__grey;
+				text-decoration: none;
+
+				.vf-notification-body-item-col1 {
+					padding-right: 12px;
+
+					.vf-notification-body-item-image {
+						height: 44px;
+						width: 44px;
+						border-radius: 50%;
+						background-repeat: no-repeat;
+						background-position: center;
+						background-size: cover;
+					}
+				}
+
+				.vf-notification-body-item-col2 {
+					.vf-notification-body-item-event {
+						color: #222;
+						font-size: 1rem;
+						font-weight: 500;
+						letter-spacing: -0.05px;
+						line-height: 28px;
+
+						.vf-notification-body-item-event-action {
+							font-weight: 400;
+						}
+					}
+
+					.vf-notification-body-item-time {
+						color: #888;
+						font-weight: 400;
+						letter-spacing: 0px;
+						line-height: 24px;
+						font-size: 0.875rem;
+						padding-top: 1px;
+					}
+				}
+			}
+
+			.vf-notification-footer {
+				padding: 10px 0;
+				text-align: center;
+			}
+		}
+	}
+}
