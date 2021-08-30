@@ -1,4 +1,4 @@
-@forward '../components/style/components/colours';
+@forward '../components/style/components/colours/';
 @forward '../components/style/components/dialogues/';
 @forward '../components/style/components/indicators/';
 @forward '../components/style/components/selection/';
@@ -9,7 +9,7 @@
 @forward '../components/style/components/navigation/';
 @forward '../components/style/components/logos/';
 @forward '../components/style/components/tables-and-lists/';
-@forward '../components/style/components/image';
+@forward '../components/style/components/image/';
 @forward '../components/style/components/structure';
 
 body {
@@ -31,175 +31,173 @@ html {
 
 @font-face {
 	font-family: 'VattenfallHallDisplay-Bold';
-	src: url('../fonts/VattenfallHall-Bold.eot');
-	src: url('../fonts/VattenfallHallDisplay-Bold.eot?#iefix')
+	src: url('./fonts/VattenfallHall-Bold.eot');
+	src: url('./fonts/VattenfallHallDisplay-Bold.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHallDisplay-Bold.woff2') format('woff2'),
-		url('../fonts/VattenfallHallDisplay-Bold.woff') format('woff');
+		url('./fonts/VattenfallHallDisplay-Bold.woff2') format('woff2'),
+		url('./fonts/VattenfallHallDisplay-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-Light.eot');
-	src: url('../fonts/VattenfallHall-Light.eot?#iefix')
+	src: url('./fonts/VattenfallHall-Light.eot');
+	src: url('./fonts/VattenfallHall-Light.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-Light.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-Light.woff') format('woff');
+		url('./fonts/VattenfallHall-Light.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-Light.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-LightItalic.eot');
-	src: url('../fonts/VattenfallHall-LightItalic.eot?#iefix')
+	src: url('./fonts/VattenfallHall-LightItalic.eot');
+	src: url('./fonts/VattenfallHall-LightItalic.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-LightItalic.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-LightItalic.woff') format('woff');
+		url('./fonts/VattenfallHall-LightItalic.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-LightItalic.woff') format('woff');
 	font-weight: 300;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-Regular.eot');
-	src: url('../fonts/VattenfallHall-Regular.eot?#iefix')
+	src: url('./fonts/VattenfallHall-Regular.eot');
+	src: url('./fonts/VattenfallHall-Regular.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-Regular.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-Regular.woff') format('woff');
+		url('./fonts/VattenfallHall-Regular.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-Regular.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'VattenfallHall-Regular';
-	src: url('../fonts/VattenfallHall-Regular.eot');
-	src: url('../fonts/VattenfallHall-Regular.eot?#iefix')
+	src: url('./fonts/VattenfallHall-Regular.eot');
+	src: url('./fonts/VattenfallHall-Regular.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-Regular.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-Regular.woff') format('woff');
+		url('./fonts/VattenfallHall-Regular.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-RegularItalic.eot');
-	src: url('../fonts/VattenfallHall-RegularItalic.eot?#iefix')
+	src: url('./fonts/VattenfallHall-RegularItalic.eot');
+	src: url('./fonts/VattenfallHall-RegularItalic.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-RegularItalic.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-RegularItalic.woff') format('woff');
+		url('./fonts/VattenfallHall-RegularItalic.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-RegularItalic.woff') format('woff');
 	font-weight: 400;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-Medium.eot');
-	src: url('../fonts/VattenfallHall-Medium.eot?#iefix')
+	src: url('./fonts/VattenfallHall-Medium.eot');
+	src: url('./fonts/VattenfallHall-Medium.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-Medium.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-Medium.woff') format('woff');
+		url('./fonts/VattenfallHall-Medium.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-Medium.woff') format('woff');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-MediumItalic.eot');
-	src: url('../fonts/VattenfallHall-MediumItalic.eot?#iefix')
+	src: url('./fonts/VattenfallHall-MediumItalic.eot');
+	src: url('./fonts/VattenfallHall-MediumItalic.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-MediumItalic.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-MediumItalic.woff') format('woff');
+		url('./fonts/VattenfallHall-MediumItalic.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-MediumItalic.woff') format('woff');
 	font-weight: 500;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall Display NORDx';
-	src: url('../fonts/VattenfallHallDisplay-Bold.eot');
-	src: url('../fonts/VattenfallHallDisplay-Bold.eot?#iefix')
+	src: url('./fonts/VattenfallHallDisplay-Bold.eot');
+	src: url('./fonts/VattenfallHallDisplay-Bold.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHallDisplay-Bold.woff2') format('woff2'),
-		url('../fonts/VattenfallHallDisplay-Bold.woff') format('woff');
+		url('./fonts/VattenfallHallDisplay-Bold.woff2') format('woff2'),
+		url('./fonts/VattenfallHallDisplay-Bold.woff') format('woff');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHallDisplay-Bold.eot');
-	src: url('../fonts/VattenfallHallDisplay-Bold.eot?#iefix')
+	src: url('./fonts/VattenfallHallDisplay-Bold.eot');
+	src: url('./fonts/VattenfallHallDisplay-Bold.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHallDisplay-Bold.woff2') format('woff2'),
-		url('../fonts/VattenfallHallDisplay-Bold.woff') format('woff');
+		url('./fonts/VattenfallHallDisplay-Bold.woff2') format('woff2'),
+		url('./fonts/VattenfallHallDisplay-Bold.woff') format('woff');
 	font-weight: 800;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall Bold NORDx';
-	src: url('../fonts/VattenfallHall-Bold.eot');
-	src: url('../fonts/VattenfallHall-Bold.eot?#iefix')
-			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-Bold.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-Bold.woff') format('woff');
+	src: url('./fonts/VattenfallHall-Bold.eot');
+	src: url('./fonts/VattenfallHall-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/VattenfallHall-Bold.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-Bold.woff') format('woff');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-Bold.eot');
-	src: url('../fonts/VattenfallHall-Bold.eot?#iefix')
-			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-Bold.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-Bold.woff') format('woff');
+	src: url('./fonts/VattenfallHall-Bold.eot');
+	src: url('./fonts/VattenfallHall-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/VattenfallHall-Bold.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-Bold.woff') format('woff');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-BoldItalic.eot');
-	src: url('../fonts/VattenfallHall-BoldItalic.eot?#iefix')
+	src: url('./fonts/VattenfallHall-BoldItalic.eot');
+	src: url('./fonts/VattenfallHall-BoldItalic.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-BoldItalic.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-BoldItalic.woff') format('woff');
+		url('./fonts/VattenfallHall-BoldItalic.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-BoldItalic.woff') format('woff');
 	font-weight: 600;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-Heavy.eot');
-	src: url('../fonts/VattenfallHall-Heavy.eot?#iefix')
+	src: url('./fonts/VattenfallHall-Heavy.eot');
+	src: url('./fonts/VattenfallHall-Heavy.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-Heavy.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-Heavy.woff') format('woff');
+		url('./fonts/VattenfallHall-Heavy.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-Heavy.woff') format('woff');
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Vattenfall Hall NORDx';
-	src: url('../fonts/VattenfallHall-HeavyItalic.eot');
-	src: url('../fonts/VattenfallHall-HeavyItalic.eot?#iefix')
+	src: url('./fonts/VattenfallHall-HeavyItalic.eot');
+	src: url('./fonts/VattenfallHall-HeavyItalic.eot?#iefix')
 			format('embedded-opentype'),
-		url('../fonts/VattenfallHall-HeavyItalic.woff2') format('woff2'),
-		url('../fonts/VattenfallHall-HeavyItalic.woff') format('woff');
+		url('./fonts/VattenfallHall-HeavyItalic.woff2') format('woff2'),
+		url('./fonts/VattenfallHall-HeavyItalic.woff') format('woff');
 	font-weight: 700;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'vf-icons';
-	src: url('../fonts/vf-icons.eot');
-	src: url('../fonts/vf-icons.eot#iefix') format('embedded-opentype'),
-		url('../fonts/vf-icons.ttf') format('truetype'),
-		url('../fonts/vf-icons.woff') format('woff'),
-		url('../fonts/vf-icons.svg#vf-icons') format('svg');
+	src: url('./fonts/vf-icons.eot');
+	src: url('./fonts/vf-icons.eot#iefix') format('embedded-opentype'),
+		url('./fonts/vf-icons.ttf') format('truetype'),
+		url('./fonts/vf-icons.woff') format('woff'),
+		url('./fonts/vf-icons.svg#vf-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
