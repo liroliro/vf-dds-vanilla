@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tab bar</title>
+		<link rel="stylesheet" href="../../style/example-css/style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="vf-container vf-tab-bar-container">
+			<ul class="vf-tab-bar" aria-label="Tab bar example" role="tablist">
+				<li
+					id="vf-tab-1"
+					class="vf-tab-bar-item vf-tab-bar-item--active"
+					role="tab"
+					aria-controls="vf-panel-1"
+					aria-selected="true"
+					tabindex="0"
+				>
+					<div class="vf-tab-bar-link vf-icon-placeholder">Tab name 1</div>
+				</li>
+				<li
+					id="vf-tab-2"
+					class="vf-tab-bar-item"
+					role="tab"
+					aria-controls="vf-panel-2"
+					aria-selected="false"
+					tabindex="-1"
+				>
+					<div class="vf-tab-bar-link vf-icon-placeholder">Tab name 2</div>
+				</li>
+				<li
+					id="vf-tab-3"
+					class="vf-tab-bar-item vf-tab-bar-item--disabled"
+					role="tab"
+					aria-disabled="true"
+					tabindex="-1"
+				>
+					<div class="vf-tab-bar-link vf-icon-placeholder" div>
+						Disabled tab
+					</div>
+				</li>
+				<li
+					id="vf-tab-4"
+					class="vf-tab-bar-item"
+					role="tab"
+					aria-controls="vf-panel-4"
+					aria-selected="false"
+					tabindex="-1"
+				>
+					<div class="vf-tab-bar-link vf-icon-placeholder">Tab name 4</div>
+				</li>
+			</ul>
+			<div class="vf-tab-bar-panels">
+				<div
+					id="vf-panel-1"
+					class="vf-panel"
+					role="tabpanel"
+					tabindex="0"
+					aria-label="vf-tab-1"
+				>
+					<p>
+						It's not enough to be efficient: we must also be innovative in our
+						ways of working.
+					</p>
+				</div>
+				<div
+					id="vf-panel-2"
+					class="vf-panel"
+					role="tabpanel"
+					tabindex="0"
+					aria-label="vf-tab-2"
+					hidden
+				>
+					<p>Content for the second panel</p>
+				</div>
+				<div
+					id="vf-panel-3"
+					class="vf-panel"
+					role="tabpanel"
+					tabindex="0"
+					aria-label="vf-tab-3"
+					hidden
+				></div>
+				<div
+					id="vf-panel-4"
+					class="vf-panel"
+					role="tabpanel"
+					tabindex="0"
+					aria-label="vf-tab-4"
+					hidden
+				>
+					<p>Content for the fourth panel</p>
+				</div>
+			</div>
+		</div>
+
+		<hr />
+		<div class="vf-tab-bar-container--mobile">
+			<ul class="vf-tab-bar--mobile-fixed">
+				<li
+					class="vf-tab-bar-item--mobile--fixed vf-tab-bar-item--mobile--active"
+				>
+					Lorem Lipsum
+				</li>
+				<li class="vf-tab-bar-item--mobile--fixed">Lorem Lipsum</li>
+			</ul>
+			<div class="vf-tab-bar-content--mobile--fixed">1</div>
+			<div class="vf-tab-bar-content--mobile--fixed">2</div>
+		</div>
+
+		<hr />
+		<div class="vf-tab-bar-container--mobile">
+			<ul class="vf-tab-bar--mobile-scroll">
+				<li
+					class="
+						vf-tab-bar-item--mobile--scroll vf-tab-bar-item--mobile--active
+					"
+				>
+					Lorem Lipsum
+				</li>
+				<li class="vf-tab-bar-item--mobile--scroll">Lorem Lipsum</li>
+				<li class="vf-tab-bar-item--mobile--scroll">Lorem Lipsum</li>
+				<li class="vf-tab-bar-item--mobile--scroll">Lorem Lipsum</li>
+				<li class="vf-tab-bar-item--mobile--scroll">Lorem Lipsum</li>
+				<li class="vf-tab-bar-item--mobile--scroll">Lorem Lipsum</li>
+				<li class="vf-tab-bar-item--mobile--scroll">Lorem Lipsum</li>
+				<li class="vf-tab-bar-item--mobile--scroll">Lorem Lipsum</li>
+				<li class="vf-tab-bar-item--mobile--scroll">Lorem Lipsum</li>
+				<li class="vf-tab-bar-item--mobile--scroll">Lorem Lipsum</li>
+			</ul>
+			<div class="vf-tab-bar-content--mobile--scroll">1</div>
+			<div class="vf-tab-bar-content--mobile--scroll">2</div>
+			<div class="vf-tab-bar-content--mobile--scroll">3</div>
+			<div class="vf-tab-bar-content--mobile--scroll">4</div>
+			<div class="vf-tab-bar-content--mobile--scroll">5</div>
+			<div class="vf-tab-bar-content--mobile--scroll">6</div>
+			<div class="vf-tab-bar-content--mobile--scroll">7</div>
+			<div class="vf-tab-bar-content--mobile--scroll">8</div>
+			<div class="vf-tab-bar-content--mobile--scroll">9</div>
+			<div class="vf-tab-bar-content--mobile--scroll">10</div>
+		</div>
+		<script src="../../components/navigation/tab-bar.js"></script>
+	</body>
+</html>

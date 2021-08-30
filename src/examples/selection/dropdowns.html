@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dropdowns</title>
+		<link rel="stylesheet" href="../../style/example-css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<section class="vf-dropdown-wrapper">
+				<select class="vf-dropdown__semantic" data-control="vf-dropdown-data">
+					<option selected>
+						<label class="vf-dropdown-label">Select option</label>
+					</option>
+					<section>
+						<article>
+							<option value="Winter">
+								<label> Winter </label>
+							</option>
+						</article>
+						<article>
+							<option value="Spring">
+								<label> Spring </label>
+							</option>
+						</article>
+						<article>
+							<option value="Summer">
+								<label> Summer </label>
+							</option>
+						</article>
+						<article>
+							<option value="Autumn">
+								<label> Autumn </label>
+							</option>
+						</article>
+					</section>
+				</select>
+			</section>
+
+			<hr />
+
+			<section class="vf-dropdown-wrapper">
+				<div class="vf-dropdown__standard" id="vf_dropdown_checkbox">
+					<label class="vf-dropdown-label" id="vf_label">Select option</label>
+					</div>
+					<div class="vf-dropdown-list">
+						<div class="vf-dropdown-list-item--with-checkbox">
+							<input
+								type="checkbox"
+								class="vf-dropdown__checkbox-input"
+								name="vf-dropdown-group"
+								id='vf-dropdown__checkbox'
+								value="Winter"
+							/>
+							<label class="vf-dropdown-option"> Winter </label>
+						</div>
+						<div class="vf-dropdown-list-item--with-checkbox">
+							<input
+								type="checkbox"
+								class="vf-dropdown__checkbox-input"
+								name="vf-dropdown-group"
+								id='vf-dropdown__checkbox'
+								value="Spring"
+							/>
+							<label class="vf-dropdown-option"> Spring </label>
+						</div>
+						<div class="vf-dropdown-list-item--with-checkbox">
+							<input
+								type="checkbox"
+								class="vf-dropdown__checkbox-input"
+								name="vf-dropdown-group"
+								id='vf-dropdown__checkbox'
+								value="Fall"
+							/>
+							<label class="vf-dropdown-option"> Fall </label>
+						</div>
+						<div class="vf-dropdown-list-item--with-checkbox">
+							<input
+								type="checkbox"
+								class="vf-dropdown__checkbox-input"
+								name="vf-dropdown-group"
+								id='vf-dropdown__checkbox'
+								value="Summer"
+							/>
+							<label class="vf-dropdown-option"> Summer </label>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<script src="../../components/selection/general-dropdown.js"></script>
+		<script src="../../components/selection/checkbox-dropdown.js"></script>
+		<script src="../../components/selection/standard-dropdown.js"></script>
+		<script src="../../components/selection/underline-dropdown.js"></script>
+	</body>
+</html>

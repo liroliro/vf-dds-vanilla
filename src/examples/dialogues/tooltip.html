@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tooltip</title>
+		<link rel="stylesheet" href="../../style/example-css/style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Tooltip example</h1>
+			<p>
+				President and CEO Magnus Hall and CFO Anna Borg comment on Vattenfall's
+				half-year results
+				<span class="vf-tooltip" data-tooltip="Tooltip message">2018</span>. The
+				web audiocast for analysts.
+			</p>
+		</div>
+
+		<hr />
+		<span
+			class="vf-tooltip vf-tooltip--yellow-solid vf-tooltip--left"
+			data-tooltip="Solid Yellow Tooltip message"
+		>
+			Tooltip available for this content.
+			<div class="vf-tooltip-message">Solid Yellow Tooltip message</div></span
+		>
+		<script src="../../components/dialogues/tooltip.js"></script>
+	</body>
+</html>
