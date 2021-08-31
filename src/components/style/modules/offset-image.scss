@@ -1,0 +1,77 @@
+@use '../typography/typography.scss';
+@use '../navigation/text-link';
+
+.vf-offset-image {
+	padding: 1rem;
+	position: relative;
+	width: 100%;
+
+	@media screen and (min-width: 1024px) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	&__image {
+		height: 100%;
+		max-height: 300px;
+		object-fit: cover;
+		width: 100%;
+
+		@media screen and (min-width: 1024px) {
+			max-height: none;
+		}
+	}
+
+	&__image-container {
+		margin-bottom: 2rem;
+
+		@media screen and (min-width: 1024px) {
+			margin-bottom: 0;
+		}
+	}
+
+	.vf-headings__default {
+		margin-bottom: 2rem;
+
+		@media screen and (min-width: 1024px) {
+			position: absolute;
+			left: 50%;
+			top: 40%;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+	.vf-body-copy__small {
+		margin-bottom: 2rem;
+
+		@media screen and (min-width: 1024px) {
+			margin-top: 50%;
+			padding-left: 44px;
+			padding-right: 44px;
+			padding-bottom: 22px;
+		}
+	}
+
+	.vf-link-with-arrow {
+		margin-bottom: 2rem;
+
+		@media screen and (min-width: 1024px) {
+			margin-left: 44px;
+		}
+	}
+
+	&__bg {
+		background: #eef1f6;
+		height: 50%;
+		position: absolute;
+		width: 50%;
+		top: 20%;
+		right: 0;
+		z-index: -1;
+
+		@media screen and (min-width: 1024px) {
+			height: 100%;
+			top: 10%;
+		}
+	}
+}

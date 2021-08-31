@@ -1,0 +1,160 @@
+@use '../../../style/variables' as *;
+
+.vf-input {
+	background-color: #fff;
+	box-sizing: border-box;
+	color: #222222;
+	border-radius: 4px;
+	border: 1px solid #cccccc;
+	font-size: 1.25rem;
+	font-weight: normal;
+	letter-spacing: 0px;
+	line-height: 24px;
+	height: 52px;
+	padding: 16px 20px;
+	position: relative;
+	width: 264px;
+
+	&::-webkit-outer-spin-button,
+	&::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+
+	&:focus ~ &__label {
+		color: #1964a3;
+		font-weight: 500;
+		left: 16.5px;
+		letter-spacing: 0px;
+		transform: scale(0.7);
+		transform-origin: top left;
+		top: -9px;
+		padding: 0 7px;
+	}
+
+	&__container {
+		cursor: pointer;
+		line-height: 1;
+		position: relative;
+	}
+
+	&__label {
+		color: #767676;
+		cursor: default;
+		font-family: 'Vattenfall Hall NORDx';
+		font-size: 1.25rem;
+		line-height: 25px;
+		letter-spacing: 0px;
+		margin-bottom: 0;
+		top: 13px;
+		left: 20px;
+		position: absolute;
+		pointer-events: none;
+		transition: top 0.2s ease-in-out;
+
+		&::after {
+			background: white;
+			content: '';
+			display: block;
+			height: 2.6px;
+			top: -12.43666px;
+			position: relative;
+			width: 100%;
+			transform: scaleX(1.05) scaleY(1.1);
+			z-index: -1;
+		}
+	}
+
+	&__number--increment {
+		position: absolute;
+		right: 1px;
+		height: 48%;
+		width: 40px;
+		border-left: 1px solid $border__grey;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		background-position: 50%;
+		-webkit-box-sizing: content-box;
+		box-sizing: content-box;
+		top: 1px;
+		border-bottom: 1px solid $border__grey;
+	}
+
+	&__number--decrement {
+		position: absolute;
+		right: 1px;
+		height: 48%;
+		width: 40px;
+		border-left: 1px solid $border__grey;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		background-position: 50%;
+		-webkit-box-sizing: content-box;
+		box-sizing: content-box;
+		bottom: 1px;
+		border-top: 1px solid $border__grey;
+	}
+
+	&--underline {
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid #333;
+		padding-left: 0;
+		border-radius: 0;
+		outline: none;
+
+		&:hover {
+			border-bottom: 1px solid #999;
+		}
+
+		& ~ .vf-input__label {
+			&:after {
+				background: transparent;
+			}
+
+			background-color: transparent;
+			left: 0;
+			padding: 0;
+		}
+
+		&:focus ~ .vf-input__label {
+			left: 0;
+		}
+
+		&.vf-input--error {
+			box-shadow: 0 0 $secondary__red;
+
+			&:focus {
+				box-shadow: 0 1px $secondary__red;
+				transition: box-shadow 0.2s ease-in-out;
+			}
+		}
+
+		&.vf-input--warning {
+			box-shadow: 0 0 #f5a623;
+
+			&:focus {
+				box-shadow: 0 1px #f5a623;
+				transition: box-shadow 0.2s ease-in-out;
+			}
+		}
+	}
+}
+
+.vf-icon-up::before {
+	position: absolute;
+	font-size: 0.4375rem !important;
+	left: calc(50% - 8px);
+	top: calc(50% - 3.5px);
+}
+
+.vf-icon-down::before {
+	position: absolute;
+	font-size: 0.4375rem !important;
+	left: calc(50% - 8px);
+	top: calc(50% - 3.5px);
+}
+
+.has-value {
+	display: none;
+}

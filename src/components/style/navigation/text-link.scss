@@ -1,0 +1,49 @@
+@use '../../../style/variables' as *;
+
+.vf-link-with-arrow {
+	color: $text__dark-color;
+	display: inline-block;
+	font-size: 1rem;
+	position: relative;
+	letter-spacing: -0.05px;
+	line-height: 28px;
+	font-weight: normal;
+	font-weight: 500;
+	padding-left: 35px;
+	user-select: none;
+	vertical-align: middle;
+	text-decoration: none;
+
+	&:hover {
+		color: #2071b5;
+	}
+
+	@media screen and (min-width: 576px) {
+		letter-spacing: 0;
+		line-height: 36px;
+	}
+
+	&::before {
+		color: $primary__ocean-blue;
+		content: '\2192';
+		font-size: 1.5rem;
+		opacity: 1;
+		position: absolute;
+		transform: translate(-220%, 0);
+		transform-origin: top left;
+		transition-property: opacity, transform, -webkit-transform;
+		-webkit-transition-duration: 300ms;
+		transition-duration: 300ms;
+	}
+
+	&:hover::before {
+		transition-delay: 150ms;
+		transform: translate(-150%, 0);
+	}
+}
+
+.vf-link-with-arrow--lg {
+	@media screen and (min-width: 576px) {
+		font-size: 1.25rem;
+	}
+}
