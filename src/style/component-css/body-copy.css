@@ -1,0 +1,15 @@
+.vf-body-copy__large {
+  font-family: "Vattenfall Hall NORDx";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.vf-body-copy__small {
+  font-family: "Vattenfall Hall NORDx";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}

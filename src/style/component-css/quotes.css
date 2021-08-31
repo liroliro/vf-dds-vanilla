@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.vf-large-quote {
+  background: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding: 70px 20px 70px 20px;
+  position: relative;
+  max-width: 768px;
+  width: 100%;
+}
+.vf-large-quote::before {
+  border: 2px #cdd1d4 solid;
+  border-radius: 50%;
+  color: #cdd1d4;
+  content: "“";
+  font-size: 4.25rem;
+  height: 48px;
+  line-height: 72px;
+  position: absolute;
+  text-align: center;
+  left: 30px;
+  top: 90px;
+  width: 48px;
+}
+.vf-large-quote__illustration {
+  height: 330px;
+  position: relative;
+}
+.vf-large-quote__illustration-cutout {
+  position: absolute;
+  z-index: 10;
+  top: -50px;
+  left: 0px;
+  height: 380px;
+}
+@media screen and (min-width: 768px) {
+  .vf-large-quote__illustration-cutout {
+    left: 70px;
+  }
+}
+.vf-large-quote__light-grey-bg {
+  background: #f2f2f2;
+  height: 330px;
+  left: 155px;
+  width: 100%;
+  position: absolute;
+}
+.vf-large-quote__content {
+  text-align: left;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  z-index: 20;
+}
+.vf-large-quote__byline {
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36px;
+  font-size: 1.25rem;
+}
+.vf-large-quote__byline-description {
+  font-weight: normal;
+  letter-spacing: -0.05px;
+  line-height: 28px;
+  font-size: 1rem;
+}
+.vf-large-quote__quote {
+  color: #222222;
+  padding: 30px 0px 48px 12px;
+  margin: 0 21px 0 0;
+  background: #fff;
+  font-size: 1rem;
+  letter-spacing: -0.1px;
+  line-height: 22px;
+}
+@media screen and (min-width: 768px) {
+  .vf-large-quote__quote {
+    margin-right: 200px;
+  }
+}
+
+.vf-small-quote {
+  background: #faf9dc;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 16px;
+  margin: 40px 0 60px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+  max-width: 1440px;
+  padding: 36px 48px 37px;
+  position: relative;
+}
+@media screen and (min-width: 576px) {
+  .vf-small-quote {
+    font-size: 1.25rem;
+    line-height: 36px;
+  }
+}
+.vf-small-quote::after {
+  border: 32px solid transparent;
+  border-bottom: 0;
+  border-right: 0;
+  border-top-color: #faf9dc;
+  bottom: 0;
+  content: "";
+  height: 0;
+  left: 50%;
+  margin-left: -16px;
+  margin-bottom: -32px;
+  position: absolute;
+  width: 0;
+}
+@media screen and (min-width: 576px) {
+  .vf-small-quote::after {
+    left: 70px;
+  }
+}

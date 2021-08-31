@@ -1,0 +1,243 @@
+.vf-text--body {
+  color: #222222;
+}
+
+.vf-text__coal-black {
+  color: #000;
+}
+
+.vf-text--muted {
+  color: #6c757d;
+}
+
+.vf-text--primary {
+  color: #ffda00;
+}
+
+.vf-text--secondary {
+  color: #2071b5;
+}
+
+a.vf-text--secondary:hover,
+a.vf-text--secondary:focus {
+  color: #18568a;
+}
+
+.vf-text--success {
+  color: #28a745;
+}
+
+a.vf-text--success:hover,
+a.vf-text--success:focus {
+  color: #1e7e34;
+}
+
+a.vf-text--primary:hover,
+a.vf-text--primary:focus {
+  color: #ccae00;
+}
+
+.vf-text--warning {
+  color: #ffc107;
+}
+
+a.vf-text--warning:hover,
+a.vf-text--warning:focus {
+  color: #d39e00;
+}
+
+.vf-text--danger {
+  color: #f93b18;
+}
+
+a.vf-text--danger:hover,
+a.vf-text--danger:focus {
+  color: #d82606;
+}
+
+.vf-text--light {
+  color: #f8f9fa;
+}
+
+a.vf-text--light:hover,
+a.vf-text--light:focus {
+  color: #dae0e5;
+}
+
+.vf-text--dark {
+  color: #222222;
+}
+
+a.vf-text--dark:hover,
+a.vf-text--dark:focus {
+  color: #090909;
+}
+
+.vf-text--blue-grey {
+  color: #69788c;
+}
+
+a.vf-text--blue-grey:hover,
+a.vf-text--blue-grey:focus {
+  color: #535f6f;
+}
+
+.vf-text--dark-moss {
+  color: #005c63;
+}
+
+a.vf-text--dark-moss:hover,
+a.vf-text--dark-moss:focus {
+  color: #002d30;
+}
+
+.vf-text--dark-blue {
+  color: #1e324f;
+}
+
+a.vf-text--dark-blue:hover,
+a.vf-text--dark-blue:focus {
+  color: #101b2a;
+}
+
+.vf-text--dark-pink {
+  color: #d1266b;
+}
+
+a.vf-text--dark-pink:hover,
+a.vf-text--dark-pink:focus {
+  color: #a61e55;
+}
+
+.vf-text--dark-green {
+  color: #3dc07c;
+}
+
+a.vf-text--dark-green:hover,
+a.vf-text--dark-green:focus {
+  color: #319963;
+}
+
+.vf-text--dark-red {
+  color: #f93b18;
+}
+
+a.vf-text--dark-red:hover,
+a.vf-text--dark-red:focus {
+  color: #d82606;
+}
+
+.vf-text--dark-purple {
+  color: #9b62c3;
+}
+
+a.vf-text--dark-purple:hover,
+a.vf-text--dark-purple:focus {
+  color: #8243af;
+}
+
+.vf-bg--light-yellow {
+  color: #fffee5;
+}
+
+a.vf-bg--light-yellow:hover,
+a.vf-bg--light-yellow:focus {
+  color: #fffcb2;
+}
+
+.vf-bg--light-green {
+  color: #edf9f3;
+}
+
+a.vf-bg--light-green:hover,
+a.vf-bg--light-green:focus {
+  color: #c7ecda;
+}
+
+.vf-bg--light-turquoise {
+  color: #ebf2f3;
+}
+
+a.vf-bg--light-turquoise:hover,
+a.vf-bg--light-turquoise:focus {
+  color: #cbdde0;
+}
+
+.vf-bg--light-blue {
+  color: #edf1f6;
+}
+
+a.vf-bg--light-blue:hover,
+a.vf-bg--light-blue:focus {
+  color: #cbd7e5;
+}
+
+.vf-bg--light-red {
+  color: #fef0ea;
+}
+
+a.vf-bg--light-red:hover,
+a.vf-bg--light-red:focus {
+  color: #fccdb9;
+}
+
+.vf-bg--light-grey {
+  color: #f2f2f2;
+}
+
+a.vf-bg--light-grey:hover,
+a.vf-bg--light-grey:focus {
+  color: #d9d9d9;
+}
+
+.vf-bg--white {
+  color: #fff;
+}
+
+.vf-text--white {
+  color: #fff;
+}
+
+.vf-bg--transparent {
+  color: transparent;
+}
+
+.vf-text--black-50 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.vf-text--white-50 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.vf-text--incharge-nordic-green {
+  color: #46ee76;
+}
+
+.vf-text--incharge-nordic-blue {
+  color: #2071b5;
+}
+
+.vf-text--incharge-nordic-grey {
+  color: #4e4b48;
+}
+
+.vf-text--incharge-vattenfall-green {
+  color: #46ee76;
+}
+
+.vf-text--incharge-map-app-yellow {
+  color: #ffda00;
+}
+
+.vf-text--incharge-map-app-white {
+  color: #fff;
+}
+
+.vf-text--incharge-map-app-solar {
+  color: #81e0a8;
+}
+
+.vf-text--incharge-map-app-blue {
+  color: #2071b5;
+}

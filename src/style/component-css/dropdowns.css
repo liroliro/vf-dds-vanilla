@@ -1,0 +1,180 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.vf-dropdown {
+  position: relative;
+  width: 256px;
+  height: 52px;
+}
+.vf-dropdown-wrapper {
+  height: 52px;
+  position: relative;
+  width: 300px;
+}
+.vf-dropdown-wrapper::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 36px;
+  background-position: right center;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzNiAzNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzYgMzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojMzMzMzMzO30KPC9zdHlsZT4KPGcgaWQ9Ik1hc2siIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE4LjAwMDAwMCwgMTguNTAwMDAwKSBzY2FsZSgxLCAtMSkgdHJhbnNsYXRlKC0xOC4wMDAwMDAsIC0xOC41MDAwMDApICI+Cgk8cG9seWdvbiBpZD0icGF0aC0xXzFfIiBjbGFzcz0ic3QwIiBwb2ludHM9IjE4LDE0LjUgMTAsMjAuMyAxMSwyMS41IDE4LDE2LjUgMjUsMjEuNSAyNiwyMC4zIAkiLz4KPC9nPgo8L3N2Zz4K);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 8px;
+  padding: 18px;
+  pointer-events: none;
+}
+.vf-dropdown__semantic {
+  border: 1px solid #e8e8e9;
+  color: #222222;
+  cursor: pointer;
+  height: 52px;
+  border-radius: 4px;
+  appearance: none;
+  padding: 11px 114px 11px 20px;
+  font-size: 1.25rem;
+  line-height: 24px;
+  width: 300px;
+}
+.vf-dropdown__semantic:hover {
+  border: 1px solid #000;
+}
+.vf-dropdown__semantic:focus, .vf-dropdown__semantic:focus-visible {
+  border-color: #000;
+}
+.vf-dropdown-list {
+  border: 1px solid #69788c;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  display: none;
+  left: 0;
+  right: 0;
+  top: 51px;
+  max-height: 500px;
+  position: absolute;
+}
+.vf-dropdown-list-item {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  padding: 12px 20px;
+}
+.vf-dropdown-list-item:hover {
+  background-color: #1964a3;
+  color: #fff;
+}
+.vf-dropdown-list-item--with-checkbox {
+  padding: 12px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 52px;
+}
+.vf-dropdown__checkbox-input {
+  appearance: none;
+  background: #fff;
+  border-radius: 4px 4px 4px 4px;
+  border: 1px solid #a4a9ac;
+  height: 28px;
+  width: 28px;
+  line-height: 1;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.vf-dropdown__standard {
+  border: 1px solid #e8e8e9;
+  color: #222222;
+  cursor: pointer;
+  height: 52px;
+  border-radius: 4px;
+  appearance: none;
+  padding: 11px 114px 11px 20px;
+  font-size: 1.25rem;
+  line-height: 24px;
+}
+.vf-dropdown__standard:hover {
+  border-color: #69788c;
+}
+.vf-dropdown__underline {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #869bad;
+  border-radius: 0px 0px 0px 0px;
+  font-size: 1.25rem;
+  height: 52px;
+  padding: 11px 114px 11px 20px;
+  width: 300px;
+}
+.vf-dropdown__underline:hover {
+  border-color: #69788c;
+}
+.vf-dropdown__disabled {
+  color: #767676;
+  background: #f1f1f1;
+  border-color: #bcbcbc;
+}
+
+.active {
+  display: block;
+}
+
+.vf-icon-check::before {
+  font-size: 18px;
+  opacity: 0;
+}
+
+.checked.vf-icon-check::before {
+  opacity: 1;
+}
+
+.open {
+  border-top: 1px solid #69788c;
+  border-left: 1px solid #69788c;
+  border-right: 1px solid #69788c;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  border-color: #69788c;
+}
+
+.vf-dropdown__checkbox-input:checked.vf-dropdown__checkbox-input::before {
+  transform: rotate(45deg) scale(1);
+  border-bottom: 3px solid #4e4b48;
+  border-right: 3px solid #4e4b48;
+  content: "";
+  position: absolute;
+  transition: transform 0.2s ease-in-out;
+  height: 16px;
+  width: 8px;
+  margin: auto;
+  left: 9px;
+  top: 3px;
+}
+
+.vf-dropdown-list-item--with-checkbox:hover {
+  background-color: #1964a3;
+  color: #fff;
+}
+.vf-dropdown-list-item--with-checkbox label.vf-dropdown-option {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-bottom: 0;
+  letter-spacing: 0px;
+  line-height: 22px;
+  vertical-align: middle;
+  max-width: 210px;
+  word-break: break-all;
+  hyphens: auto;
+}

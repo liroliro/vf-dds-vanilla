@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.vf-link-with-arrow {
+  color: #222;
+  display: inline-block;
+  font-size: 1rem;
+  position: relative;
+  letter-spacing: -0.05px;
+  line-height: 28px;
+  font-weight: normal;
+  font-weight: 500;
+  padding-left: 35px;
+  user-select: none;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.vf-link-with-arrow:hover {
+  color: #2071b5;
+}
+@media screen and (min-width: 576px) {
+  .vf-link-with-arrow {
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+}
+.vf-link-with-arrow::before {
+  color: #2071b5;
+  content: "→";
+  font-size: 1.5rem;
+  opacity: 1;
+  position: absolute;
+  transform: translate(-220%, 0);
+  transform-origin: top left;
+  transition-property: opacity, transform, -webkit-transform;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+}
+.vf-link-with-arrow:hover::before {
+  transition-delay: 150ms;
+  transform: translate(-150%, 0);
+}
+
+@media screen and (min-width: 576px) {
+  .vf-link-with-arrow--lg {
+    font-size: 1.25rem;
+  }
+}

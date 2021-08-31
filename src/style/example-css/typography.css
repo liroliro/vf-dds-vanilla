@@ -1,0 +1,123 @@
+.vf-preamble {
+  font-family: "Vattenfall Hall NORDx";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-preamble {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.vf-headings__large {
+  font-family: "Vattenfall Hall Display NORDx";
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-headings__large {
+    font-size: 60px;
+    line-height: 75px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .vf-headings__large {
+    font-size: 72px;
+    line-height: 84px;
+  }
+}
+
+.vf-headings__default {
+  font-family: "Vattenfall Hall Display NORDx";
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-headings__default {
+    font-size: 52px;
+    line-height: 72px;
+  }
+}
+
+.vf-headings__small {
+  font-family: "Vattenfall Hall NORDx";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-headings__small {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.vf-headings__smaller {
+  font-family: "Vattenfall Hall NORDx";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-headings__smaller {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.vf-intro-in-caps {
+  font-family: "Vattenfall Hall NORDx";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-intro-in-caps {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 36px;
+  }
+}
+
+.vf-body-copy__large {
+  font-family: "Vattenfall Hall NORDx";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.vf-body-copy__small {
+  font-family: "Vattenfall Hall NORDx";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.vf-utility__link {
+  color: #2071b5;
+}
+
+.vf-utility__metadata {
+  color: #888888;
+}
+
+.vf-utility__success {
+  color: #3dc07c;
+}
+
+.vf-utility__warning {
+  color: #f5a623;
+}

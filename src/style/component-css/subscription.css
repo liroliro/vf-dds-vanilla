@@ -1,0 +1,361 @@
+.vf-preamble {
+  font-family: "Vattenfall Hall NORDx";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-preamble {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.vf-headings__large {
+  font-family: "Vattenfall Hall Display NORDx";
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-headings__large {
+    font-size: 60px;
+    line-height: 75px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .vf-headings__large {
+    font-size: 72px;
+    line-height: 84px;
+  }
+}
+
+.vf-headings__default {
+  font-family: "Vattenfall Hall Display NORDx";
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-headings__default {
+    font-size: 52px;
+    line-height: 72px;
+  }
+}
+
+.vf-headings__small {
+  font-family: "Vattenfall Hall NORDx";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-headings__small {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.vf-headings__smaller {
+  font-family: "Vattenfall Hall NORDx";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-headings__smaller {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.vf-intro-in-caps {
+  font-family: "Vattenfall Hall NORDx";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .vf-intro-in-caps {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 36px;
+  }
+}
+
+.vf-body-copy__large {
+  font-family: "Vattenfall Hall NORDx";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.vf-body-copy__small {
+  font-family: "Vattenfall Hall NORDx";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.vf-utility__link {
+  color: #2071b5;
+}
+
+.vf-utility__metadata {
+  color: #888888;
+}
+
+.vf-utility__success {
+  color: #3dc07c;
+}
+
+.vf-utility__warning {
+  color: #f5a623;
+}
+
+.vf-input {
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #222222;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  font-size: 1.25rem;
+  font-weight: normal;
+  letter-spacing: 0px;
+  line-height: 24px;
+  height: 52px;
+  padding: 16px 20px;
+  position: relative;
+  width: 264px;
+}
+.vf-input::-webkit-outer-spin-button, .vf-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.vf-input:focus ~ .vf-input__label {
+  color: #1964a3;
+  font-weight: 500;
+  left: 16.5px;
+  letter-spacing: 0px;
+  transform: scale(0.7);
+  transform-origin: top left;
+  top: -9px;
+  padding: 0 7px;
+}
+.vf-input__container {
+  cursor: pointer;
+  line-height: 1;
+  position: relative;
+}
+.vf-input__label {
+  color: #767676;
+  cursor: default;
+  font-family: "Vattenfall Hall NORDx";
+  font-size: 1.25rem;
+  line-height: 25px;
+  letter-spacing: 0px;
+  margin-bottom: 0;
+  top: 13px;
+  left: 20px;
+  position: absolute;
+  pointer-events: none;
+  transition: top 0.2s ease-in-out;
+}
+.vf-input__label::after {
+  background: white;
+  content: "";
+  display: block;
+  height: 2.6px;
+  top: -12.43666px;
+  position: relative;
+  width: 100%;
+  transform: scaleX(1.05) scaleY(1.1);
+  z-index: -1;
+}
+.vf-input__number--increment {
+  position: absolute;
+  right: 1px;
+  height: 48%;
+  width: 40px;
+  border-left: 1px solid #e8e8e9;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 50%;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  top: 1px;
+  border-bottom: 1px solid #e8e8e9;
+}
+.vf-input__number--decrement {
+  position: absolute;
+  right: 1px;
+  height: 48%;
+  width: 40px;
+  border-left: 1px solid #e8e8e9;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 50%;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  bottom: 1px;
+  border-top: 1px solid #e8e8e9;
+}
+.vf-input--underline {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding-left: 0;
+  border-radius: 0;
+  outline: none;
+}
+.vf-input--underline:hover {
+  border-bottom: 1px solid #999;
+}
+.vf-input--underline ~ .vf-input__label {
+  background-color: transparent;
+  left: 0;
+  padding: 0;
+}
+.vf-input--underline ~ .vf-input__label:after {
+  background: transparent;
+}
+.vf-input--underline:focus ~ .vf-input__label {
+  left: 0;
+}
+.vf-input--underline.vf-input--error {
+  box-shadow: 0 0 #f93b18;
+}
+.vf-input--underline.vf-input--error:focus {
+  box-shadow: 0 1px #f93b18;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.vf-input--underline.vf-input--warning {
+  box-shadow: 0 0 #f5a623;
+}
+.vf-input--underline.vf-input--warning:focus {
+  box-shadow: 0 1px #f5a623;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.vf-icon-up::before {
+  position: absolute;
+  font-size: 0.4375rem !important;
+  left: calc(50% - 8px);
+  top: calc(50% - 3.5px);
+}
+
+.vf-icon-down::before {
+  position: absolute;
+  font-size: 0.4375rem !important;
+  left: calc(50% - 8px);
+  top: calc(50% - 3.5px);
+}
+
+.has-value {
+  display: none;
+}
+
+.vf-subscribe {
+  background: #edf1f6;
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 20px #fff solid;
+  border-left: 20px #fff solid;
+  border-right: 20px #fff solid;
+  font-size: 2.75rem;
+  margin: 0 auto;
+  max-width: 1700px;
+  min-height: 370px;
+  position: relative;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .vf-subscribe {
+    border-bottom: 30px #fff solid;
+    border-left: 30px #fff solid;
+    border-right: 30px #fff solid;
+  }
+}
+@media screen and (min-width: 992px) {
+  .vf-subscribe {
+    border-bottom: 20px #fff solid;
+    border-left: 20px #fff solid;
+    border-right: 20px #fff solid;
+  }
+}
+.vf-subscribe__container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+@media screen and (min-width: 576px) {
+  .vf-subscribe__container {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .vf-subscribe__container {
+    max-width: 600px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .vf-subscribe__container {
+    max-width: 774px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .vf-subscribe__container {
+    max-width: 960px;
+  }
+}
+.vf-subscribe__content {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 36px;
+  padding-top: 44px;
+  padding-bottom: 88px;
+  text-align: center;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .vf-subscribe__content {
+    font-size: 1.25rem;
+  }
+}
+.vf-subscribe__content .vf-preamble {
+  font-weight: normal;
+}
+.vf-subscribe__content .vf-subscribe__input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vf-subscribe__content .vf-subscribe__input .vf-btn {
+  margin-top: 28px;
+}
+.vf-subscribe__content .vf-subscribe__input .vf-input {
+  width: 100%;
+}
+.vf-subscribe__headline {
+  font-weight: 600;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0 auto;
+  max-width: 90%;
+  padding-bottom: 28px;
+}
+@media screen and (min-width: 768px) {
+  .vf-subscribe__headline {
+    padding-bottom: 32px;
+  }
+}
