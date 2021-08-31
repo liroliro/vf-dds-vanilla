@@ -34,3 +34,16 @@ The project is built which the following thoughts
 - In the examples (`src/examples`) folder, you can find example of how the components are used, with attached HTML-files.
 - Fonts are stored at `src/fonts`.
 - Some global variables can be found in `src/style/style.scss`.
+
+### Compiling CSS
+
+We write the styling for the site using SCSS but we compile it using `node-sass`. We have two different scripts located at `./scripts` which compile category and component specific SCSS. You can also use the `yarn build-sass` to compile all SCSS to a massive file, in case you would want that.
+
+### Adding new components
+
+Most components in this library contains mostly css and some JavaScript. In case a new component gets added you should:
+
+- Add a scss-file in to the correct map, i.e. `src/components/style/modules/component_name.scss`, which contains the styling
+- Add a js-file (in case it´s needed) to the right folder i.e. `src/components/modules/component_name.js`
+- Add in to category-named file as a @use.
+- Add it to scss-scripts, to be able to compile
